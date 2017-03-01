@@ -11,7 +11,7 @@ android {
         versionCode 3
         versionName "1.2.2"
     }
-   /* buildTypes {
+    /* buildTypes {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -27,8 +27,10 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile files('libs/Baidu_MobAds_SDK.jar')
-    compile files('libs/AdViewSDK_Android.jar')
+//    compile files('libs/Baidu_MobAds_SDK.jar')
+//    compile files('libs/AdViewSDK_Android.jar')
+    compile files('src/main/jniLibs/mpandroidchartlibrary-2-1-5.jar')
+    compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.umeng.analytics:analytics:latest.integration'
+    compile 'com.android.support:design:23.4.0'
 }

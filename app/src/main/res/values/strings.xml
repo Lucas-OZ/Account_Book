@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">天天记账</string>
+    <string name="title_activity_line_chart">LineChart</string>
 </resources>
