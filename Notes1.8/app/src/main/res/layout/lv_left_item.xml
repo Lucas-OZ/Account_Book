@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lv_item_year"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/view_background_dark"
+        android:drawableRight="@drawable/common_title_btn_arrow_right"
+        android:paddingBottom="@dimen/view_space_10"
+        android:paddingRight="@dimen/view_space_10"
+        android:paddingTop="@dimen/view_space_10"
+        android:textSize="@dimen/font_size_20"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/lv_item_day"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/view_space_10"
+        android:paddingTop="@dimen/view_space_10"
+        android:textSize="@dimen/font_size_20" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+	选择器，用来设置图片资源
+	实际用法，和drawable下面的图片资源一样
+
+    -->
+    <!-- 按下状态 -->
+    <item android:drawable="@drawable/go_add_transfer_btn_normal" android:state_pressed="true" />
+    <!-- 默认状态 -->
+    <item android:drawable="@drawable/go_add_transfer_btn_selected"></item>
+
+</selector>

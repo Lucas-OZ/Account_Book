@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/detail_lv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@color/view_background_light"
+            android:divider="@null"
+            android:focusable="true"
+            android:scrollbars="none" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/detail_vp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_size_50"
+        android:background="@color/view_background_light">
+
+        <ImageButton
+            android:id="@+id/dayactivity_ib_return"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_transparent"
+            android:src="@drawable/button_return_src" />
+
+        <ImageButton
+            android:id="@+id/dayactivity_ib_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_transparent"
+            android:onClick="onClick"
+            android:src="@drawable/button_delte_src" />
+
+        <ImageButton
+            android:id="@+id/dayactivity_ib_order"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/background_transparent"
+            android:onClick="onClick"
+            android:src="@drawable/button_order_src" />
+
+    </LinearLayout>
+
+</LinearLayout>

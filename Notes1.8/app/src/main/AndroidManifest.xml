@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.per.note">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--友盟-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".ui.load.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logos"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="581f249e8630f50b72000c2a" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="open" />
+
+        <activity
+            android:name=".ui.load.LoadingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.load.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.detialyear.YearActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.detialmonth.MonthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.detialday.DayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.input.InputActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.record.RecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.countadd.AddCountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.detialcount.CountDetialActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.counttransfer.TransferCountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.selectclass.SelectClassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.selectcount.SelectCountActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="BDAPPID"
+            android:value="7704693" />
+        <meta-data
+            android:name="BDAPPKEY"
+            android:value="YQTGcQBtKGG7srYT2ilxZSKXt3jtHbQf" />
+        <!--自动更新-->
+        <activity
+            android:name="com.baidu.autoupdatesdk.ConfirmDialoigActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/bdp_update_dialog_style_fullscreen" />
+        <receiver
+            android:name="com.baidu.autoupdatesdk.receiver.BDBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.baidu.autoupdatesdk.ACTION_NEW_UPDATE" />
+                <action android:name="com.baidu.autoupdatesdk.ACTION_DOWNLOAD_COMPLETE" />
+                <action android:name="com.baidu.autoupdatesdk.ACTION_NEW_AS" />
+                <action android:name="com.baidu.autoupdatesdk.ACTION_AS_DOWNLOAD_COMPLETE" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+</manifest>

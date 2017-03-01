@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_size_100"
+        android:layout_margin="@dimen/view_space_10"
+        android:background="@color/background_blue"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_space_10"
+            android:text="总额"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_20" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/fragment_count_tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_space_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_20" />
+    </LinearLayout>
+
+    <com.per.note.view.swipemenulistview.SwipeMenuListView
+        android:id="@+id/count_lv_count"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/view_space_10"
+        android:layout_weight="1"
+        android:divider="@color/background_transparent"
+        android:dividerHeight="@dimen/view_space_10"
+        android:scrollbars="none" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_space_10"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/count_ib_add"
+            android:layout_width="@dimen/view_size_50"
+            android:layout_height="@dimen/view_size_50"
+            android:background="@color/background_transparent"
+            android:src="@drawable/button_add_src" />
+
+        <Space
+            android:layout_width="@dimen/view_size_50"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/count_ib_change"
+            android:layout_width="@dimen/view_size_50"
+            android:layout_height="@dimen/view_size_50"
+            android:background="@color/background_transparent"
+            android:src="@drawable/button_change_src" />
+
+    </LinearLayout>
+
+</LinearLayout>

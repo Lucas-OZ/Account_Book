@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.2"
+        android:background="@drawable/main_top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_space_10">
+
+            <TextView
+                android:id="@+id/mainactivity_tv_years"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark_red"
+                android:textSize="@dimen/font_size_20" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/mainactivity_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark_red"
+                android:textSize="@dimen/font_size_20" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/mainactivity_tv_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_dark_red"
+                android:textSize="@dimen/font_size_20" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_size_.5"
+            android:background="@color/view_background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:gravity="bottom"
+            android:padding="@dimen/view_space_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/view_space_10"
+                android:text="收入总额："
+                android:textColor="@color/text_dark_red"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/mainactivity_tv_tallin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_in_color"
+                android:textSize="@dimen/font_size_27" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:gravity="bottom"
+            android:padding="@dimen/view_space_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/view_space_10"
+                android:text="支出总额："
+                android:textColor="@color/text_dark_red"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/mainactivity_tv_tallout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_out_color"
+                android:textSize="@dimen/font_size_27" />
+        </LinearLayout>
+
+        <!-- <View
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/line_size_.5"
+             android:background="@color/view_background_dark" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.9"
+            android:gravity="bottom"
+            android:padding="@dimen/view_space_10">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/view_space_10"
+                android:text="收支合计："
+                android:textColor="@color/text_dark_red"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/mainactivity_tv_tall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_in_color"
+                android:textSize="@dimen/font_size_27" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mainactivity_bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_size_50"
+        android:layout_margin="@dimen/view_space_10"
+        android:background="@drawable/button_state"
+        android:text="添加收入/支出"
+        android:textColor="@color/text_dark_red" />
+
+    <LinearLayout
+        android:id="@+id/main_ll_itemday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/item_state">
+
+        <TextView
+            android:id="@+id/mainactivity_tv_day"
+            style="@style/mainImg" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="今天" />
+
+                <TextView
+                    android:id="@+id/mainactivity_tv_dayin"
+                    style="@style/text_in_out"
+                    android:textColor="@color/text_in_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="合计：" />
+
+                    <TextView
+                        android:id="@+id/mainactivity_tv_daytotal"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mainactivity_tv_dayout"
+                    style="@style/text_in_out"
+                    android:textColor="@color/text_out_color" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/drawable_right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_.5"
+        android:background="@color/view_background_dark" />
+
+    <LinearLayout
+        android:id="@+id/main_ll_itemmonth"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/item_state">
+
+        <TextView
+            android:id="@+id/mainactivity_tv_month"
+            style="@style/mainImg" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="本月" />
+
+                <TextView
+                    android:id="@+id/mainactivity_tv_monthin"
+                    style="@style/text_in_out"
+                    android:textColor="@color/text_in_color" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="合计：" />
+
+                    <TextView
+                        android:id="@+id/mainactivity_tv_monthtotal"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mainactivity_tv_monthout"
+                    style="@style/text_in_out"
+                    android:textColor="@color/text_out_color" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/drawable_right" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_.5"
+        android:background="@color/view_background_dark" />
+
+    <LinearLayout
+        android:id="@+id/main_ll_itemyear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/item_state">
+
+        <TextView
+            android:id="@+id/mainactivity_tv_year"
+            style="@style/mainImg"
+            android:textSize="@dimen/font_size_15" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="本年" />
+
+
+                <TextView
+                    android:id="@+id/mainactivity_tv_yearin"
+                    style="@style/text_in_out"
+                    android:textColor="@color/text_in_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="合计：" />
+
+                    <TextView
+                        android:id="@+id/mainactivity_tv_yeartotal"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/mainactivity_tv_yearout"
+                    style="@style/text_in_out"
+                    android:textColor="@color/text_out_color" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/drawable_right" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="@dimen/view_size_60" />
+</LinearLayout>

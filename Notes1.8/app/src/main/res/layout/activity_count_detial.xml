@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_activity"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/countdetial_lv_detial"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="@dimen/line_size_.5"
+        android:scrollbars="none" />
+
+    <include layout="@layout/title_layout" />
+</LinearLayout>
