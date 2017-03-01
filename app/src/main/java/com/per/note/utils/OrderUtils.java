@@ -7,7 +7,7 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * Created by 22762 on 2016/1/23.
+ * 时间比较工具和钱数比较工具类
  */
 public class OrderUtils {
     public static void orderDay(List list) {

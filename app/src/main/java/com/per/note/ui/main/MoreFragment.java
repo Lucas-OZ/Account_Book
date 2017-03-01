@@ -1,12 +1,14 @@
 package com.per.note.ui.main;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -15,6 +17,7 @@ import com.baidu.autoupdatesdk.UICheckUpdateCallback;
 import com.per.note.R;
 import com.per.note.bean.MsgDay;
 import com.per.note.db.SqliteManage;
+import com.per.note.ui.chart.PieChartActivity;
 import com.per.note.utils.AppUtils;
 import com.per.note.utils.SDUtils;
 
@@ -24,7 +27,7 @@ import java.io.File;
  * Created by 22762 on 2016/1/24.
  */
 public class MoreFragment extends Fragment {
-    private TextView mTv_verson, mTv_clear, mTv_tellme;
+    private TextView mTv_verson, mTv_clear, mTv_tellme,mTv_piechart;
     private ProgressDialog dialog;
 
     @Override
@@ -40,12 +43,15 @@ public class MoreFragment extends Fragment {
         mTv_verson = (TextView) view.findViewById(R.id.fragment_more_tv_verson);
         mTv_clear = (TextView) view.findViewById(R.id.fragment_more_tv_clear);
         mTv_tellme = (TextView) view.findViewById(R.id.fragment_more_tv_tellme);
+        mTv_piechart = (TextView) view.findViewById(R.id.fragment_more_tv_piechart);
 
         mTv_verson.setText("版本更新" + "(" + version + ")");
 
         mTv_verson.setOnClickListener(mListener);
         mTv_clear.setOnClickListener(mListener);
         mTv_tellme.setOnClickListener(mListener);
+        mTv_piechart.setOnClickListener(mListener);
+
     }
 
     private View.OnClickListener mListener = new View.OnClickListener() {
@@ -70,6 +76,10 @@ public class MoreFragment extends Fragment {
                     break;
                 case R.id.fragment_more_tv_tellme:
                     initData();
+                    break;
+                case R.id.fragment_more_tv_piechart:
+                    Intent intent = new Intent(getActivity(), PieChartActivity.class);
+                    startActivity(intent);
                     break;
                 default:
                     break;

@@ -10,6 +10,17 @@
         android:layout_weight="1" />
 
     <TextView
+        android:id="@+id/fragment_more_tv_piechart"
+        style="@style/more_item"
+        android:text="绘制饼状图" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_size_.5"
+        android:background="@color/view_background_light" />
+
+
+    <TextView
         android:id="@+id/fragment_more_tv_clear"
         style="@style/more_item"
         android:text="清除下载" />

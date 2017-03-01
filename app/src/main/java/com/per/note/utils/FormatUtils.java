@@ -8,7 +8,8 @@ import com.per.note.R;
 import java.text.DecimalFormat;
 
 /**
- * Created by 22762 on 2016/1/12.
+ * 数据格式化工具类
+ * 把double型数据格式化为两位小数
  */
 public class FormatUtils {
     public static String format2d(double d) {

@@ -6,7 +6,7 @@ import android.content.Context;
 import com.per.note.db.SqliteManage;
 
 /**
- * Created by 22762 on 2016/1/24.
+ * 更新数据工具类
  */
 public class SqliteUtils {
     public static void updata(Context context, String count, Double changeMoney) {

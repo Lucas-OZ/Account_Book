@@ -46,8 +46,11 @@ public class SqliteManage {
         return mInstance;
     }
 
+    /**
+     * 判断数据是否存在
+     */
     public boolean isExitInTable(String table, String where, String[] args) {
-        boolean flag = false;
+        boolean flag =  false;
         SQLiteDatabase db = SQLiteDatabase.openOrCreateDatabase(mFile, null);
         Cursor cursor = db.query(table, null, where, args, null, null, null);
         if (cursor != null && cursor.getCount() > 0) {
@@ -58,6 +61,9 @@ public class SqliteManage {
         return flag;
     }
 
+    /**
+     * 插入数据
+     */
     public boolean insertItem(String table, ContentValues cv) {
         SQLiteDatabase db = SQLiteDatabase.openOrCreateDatabase(mFile, null);
         if (db.insert(table, null, cv) == 1) {
