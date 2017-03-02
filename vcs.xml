@@ -30,6 +30,10 @@
           <option name="url" value="https://github.com/Terry-Qin/Notes1.8.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:Terry-Qin/Account_Book.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Program Files\Android\Notes1.8" />
