@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="cbed989eeb786c69adcbdc81b3d01f65ba932187">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8de8c458bdccdffca14455f52397472aa2ddd1e8.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_10e8eebaa09edcaea6164624e6ba9bfac71f5b5d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="cf927c6e252320d045057bc1627108a58ed8aa70">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\instant-run_9bbb3d033550225963cea55d3d7a3fc93a990fd4.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_8425dc51a8fd7281a645aec9ec2ba8c600084de8.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\libs\BDAutoUpdateSDK_20150605_V1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5b5e4923e09dda3f3e98026c1c8c1c2ed7d04541">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\BDAutoUpdateSDK_20150605_V1.2.0_3ed97f5dc400e331a4fab6f577abe2e8eb4254e6.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\src\main\jniLibs\mpandroidchartlibrary-2-1-5.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a7650f11d4eb03995f4450562cc271d5f790c992">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-2-1-5_ea0c5feae84189da138008c6797831a99507c343.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\6.0.9\5259c1d58a8f2373c2bbb7cb0ff33aee0eef4503\analytics-6.0.9.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5259c1d58a8f2373c2bbb7cb0ff33aee0eef4503">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\analytics-6.0.9_4468fc866b83c3997851493e17b72ff7d7e51ac7.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_590ed5aca6daf4d6ba6d359689e2e7d51460f244.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_5869c49af8b9ffdd7eb9faaeaba13ca3abe5f87b.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_4b23a6162b68e216c1a394e697981e638a870e10.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\libs\baidu_cuid.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="58de9ecfba229dbb2c3eb3f45dbe284ba58100ea">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\baidu_cuid_0e8ccf294ab54b1b38d350f72d499d9a44bfe780.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\libs\patchupdate.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="311e10769e9bf8db15f166b8196e8c18b6238c27">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\patchupdate_39deceb716b6f3db87e204385354bf20dff9c807.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_c9fae43cda2e1c04b2ab0de43a8f148b5b1a92fa.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_3e78ea23959c78e9351843aed2b52cca14d5935d.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProjects\Notes1.8\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\AndroidProjects\Notes1.8\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_8bf055ddf7e86d7de517160ea5d34a14bb1b9e6b.jar" />
+    </item>
+
+</items>
