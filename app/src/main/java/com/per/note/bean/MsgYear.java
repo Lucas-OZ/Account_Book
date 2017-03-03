@@ -20,6 +20,22 @@ public class MsgYear {
     public class ClassMsg {
         public String className;
         public double money;
+
+        public String getClassName() {
+            return className;
+        }
+
+        public void setClassName(String className) {
+            this.className = className;
+        }
+
+        public double getMoney() {
+            return money;
+        }
+
+        public void setMoney(double money) {
+            this.money = money;
+        }
     }
 
     public class CountMsg {
